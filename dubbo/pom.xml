@@ -263,6 +263,7 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-source-plugin</artifactId>
+				<version>3.0.1</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
@@ -272,7 +273,8 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<executions>
+				<version>2.10.4</version>
+                <executions>
                     <execution>
                         <id>attach-javadoc</id>
 						<phase>deploy</phase>
@@ -446,6 +448,7 @@
 									implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
 									<resource>META-INF/dubbo/internal/com.alibaba.dubbo.container.page.PageHandler</resource>
 								</transformer>
+
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
 									<resource>META-INF/dubbo/internal/com.alibaba.dubbo.monitor.MonitorFactory</resource>
