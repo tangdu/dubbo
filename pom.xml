@@ -120,7 +120,7 @@
 		<easymock_version>3.0</easymock_version>
 		<jmockit_version>0.999.8</jmockit_version>
 		<!-- Build args -->
-		<argline>-server -Xms64m -Xmx256m -XX:PermSize=64m -XX:MaxPermSize=128m -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true</argline>
+		<argline>-server -Xms64m -Xmx556m -XX:PermSize=64m -XX:MaxPermSize=128m -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true</argline>
 		<skip_maven_deploy>false</skip_maven_deploy>
 		<updateReleaseInfo>true</updateReleaseInfo>
 		<project.build.sourceEncoding>${file_encoding}</project.build.sourceEncoding>
@@ -131,8 +131,8 @@
 
         <!-- for maven compiler plugin -->
         <maven_compiler_plugin_version>3.5.1</maven_compiler_plugin_version>
-        <java_source_version>1.6</java_source_version>
-        <java_target_version>1.6</java_target_version>
+        <java_source_version>1.7</java_source_version>
+        <java_target_version>1.7</java_target_version>
         <file_encoding>UTF-8</file_encoding>
         
 	</properties>
